@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+.body-style {
+  height: 800px;
+  background-image: linear-gradient(
+      -90deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://img.jjang0u.com/data3/chalkadak/1018/201307/17/137405298640200.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.body-style h1 {
+  color: white;
+}
+.Working-style {
+  display: flex;
+  gap: 12px;
+}
+.Done-style {
+  display: flex;
+  gap: 12px;
+}
+
+.square-style {
+  width: 300px;
+  height: 200px;
+
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.twobtn-style {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputbar-style {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-block: 1rem solid rgb(246, 112, 201);
+  writing-mode: horizontal-tb;
+  /* direction: rtl; */
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/785/291/764/pose-chameleon-art-rapunzel-stand-hd-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+
+.bodyLayout1 {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: start;
+  height: 300px;
+  /* position: relative;
+  right: 20%;
+  padding: 40px; */
+}
+
+.inputBar-set {
+  width: 200px;
+
+  margin: 10px;
+}
+
+.deleteBtn {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #cc0000;
+  border-radius: 15px;
+  margin: 10px;
+}
+.doneBtn {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #006600;
+  border-radius: 15px;
+  margin: 10px;
+}
