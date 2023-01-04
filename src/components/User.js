@@ -1,4 +1,4 @@
-function User(props) {
+const Users = (props) => {
   return (
     <div className="square-style">
       <div className="todo-style">
@@ -20,11 +20,11 @@ function User(props) {
             props.handleDone(props.user.id);
           }}
         >
-          {props.user.done ? "취소" : "완료"}
+          {props.user.isDone ? "취소" : "완료"}
         </button>
       </div>
     </div>
   );
-}
+};
 
-export default User;
+export default Users;
