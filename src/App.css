@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 .body-style {
@@ -52,7 +52,7 @@
 
   border-block: 1rem solid rgb(246, 112, 201);
   writing-mode: horizontal-tb;
-  /* direction: rtl; */
+  // direction: rtl; 
   background-image: url("https://p4.wallpaperbetter.com/wallpaper/785/291/764/pose-chameleon-art-rapunzel-stand-hd-wallpaper-preview.jpg");
   background-repeat: no-repeat;
   background-size: 10%;
@@ -65,9 +65,9 @@
   align-items: left;
   justify-content: start;
   height: 300px;
-  /* position: relative;
-  right: 20%;
-  padding: 40px; */
+  // position: relative;
+  // right: 20%;
+  // padding: 40px;
 }
 
 .inputBar-set {
@@ -90,3 +90,4 @@
   border-radius: 15px;
   margin: 10px;
 }
+*/

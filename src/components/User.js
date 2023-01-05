@@ -1,3 +1,8 @@
+import {
+  deleteUserHandler,
+  toggleUserHandler,
+} from "../redux/modules/todoList";
+
 const Users = (props) => {
   return (
     <div className="square-style">
@@ -9,15 +14,15 @@ const Users = (props) => {
         <button
           className="deleteBtn"
           onClick={() => {
-            props.handleDelete(props.user.id);
+            deleteUserHandler();
           }}
         >
           삭제
         </button>
         <button
-          className="doneBtn"
+          className="toggleBtn"
           onClick={() => {
-            props.handleDone(props.user.id);
+            toggleUserHandler();
           }}
         >
           {props.user.isDone ? "취소" : "완료"}
